@@ -1,0 +1,469 @@
+Link map of __start
+  1] __start (func,global) found in Runtime.PPCEABI.E.UC.a __start.o
+   2] __init_registers (func,weak) found in Runtime.PPCEABI.E.UC.a __start.o
+    3] _stack_addr found as linker generated symbol
+    3] _SDA2_BASE_ found as linker generated symbol
+    3] _SDA_BASE_ found as linker generated symbol
+   2] __init_hardware (func,global) found in __ppc_eabi_init.o 
+   2] __init_data (func,weak) found in Runtime.PPCEABI.E.UC.a __start.o
+    3] _rom_copy_info (object,global) found in Linker Generated Symbol File 
+    3] __copy_rom_section (func,global) found in Runtime.PPCEABI.E.UC.a __start.o
+     4] memcpy (func,global) found in Runtime.PPCEABI.E.UC.a __mem.o
+     4] __flush_cache (func,global) found in __ppc_eabi_init.o 
+    3] _bss_init_info (object,global) found in Linker Generated Symbol File 
+    3] __init_bss_section (func,global) found in Runtime.PPCEABI.E.UC.a __start.o
+     4] memset (func,global) found in Runtime.PPCEABI.E.UC.a __mem.o
+      5] __fill_mem (func,global) found in Runtime.PPCEABI.E.UC.a __mem.o
+   2] __init_user (func,global) found in __ppc_eabi_init.o 
+    3] __init_cpp (func,local) found in __ppc_eabi_init.o 
+     4] _ctors (notype,global) found in Linker Generated Symbol File 
+    3] FlashConfig__Fv (func,global) found in __ppc_eabi_init.o 
+     4] @500 (object,local) found in __ppc_eabi_init.o 
+   2] main (func,global) found in main.o 
+    3] HW_init__Fv (func,local) found in main.o 
+     4] DisableWatchdog__Fv (func,local) found in main.o 
+     4] FMPLL_init__Fv (func,local) found in main.o 
+    3] GPIO_init__Fv (func,local) found in main.o 
+    3] Interrupts_init__Fv (func,local) found in main.o 
+     4] IVOR10_handler__Fv (func,global) found in main.o 
+    3] Decrementer_init__Fv (func,local) found in main.o 
+    3] calloc (func,global) found in MSL_C.PPCEABI.bare.SZ.E.UC.a alloc.o
+     4] get_malloc_pool (func,local) found in MSL_C.PPCEABI.bare.SZ.E.UC.a alloc.o
+      5] @LOCAL@get_malloc_pool__Fv@init@0 (object,local) found in MSL_C.PPCEABI.bare.SZ.E.UC.a alloc.o
+      5] @LOCAL@get_malloc_pool__Fv@protopool (object,local) found in MSL_C.PPCEABI.bare.SZ.E.UC.a alloc.o
+      5] __init_pool_obj (func,global) found in MSL_C.PPCEABI.bare.SZ.E.UC.a alloc.o
+      5] __restore_frame_and_exit (func,global) found in Runtime.PPCEABI.E.UC.a runtime.o
+     4] __pool_alloc_clear (func,global) found in MSL_C.PPCEABI.bare.SZ.E.UC.a alloc.o
+      5] __pool_allocate (func,local) found in MSL_C.PPCEABI.bare.SZ.E.UC.a alloc.o
+       6] defaultheapinitialized (object,local) found in MSL_C.PPCEABI.bare.SZ.E.UC.a alloc.o
+       6] init_default_heap (func,global) found in MSL_C.PPCEABI.bare.SZ.E.UC.a alloc.o
+        7] _heap_addr found as linker generated symbol
+        7] _heap_end found as linker generated symbol
+        7] init_alloc (func,global) found in MSL_C.PPCEABI.bare.SZ.E.UC.a alloc.o
+         8] Block_construct (func,local) found in MSL_C.PPCEABI.bare.SZ.E.UC.a alloc.o
+          9] SubBlock_construct (func,local) found in MSL_C.PPCEABI.bare.SZ.E.UC.a alloc.o
+          9] Block_link (func,local) found in MSL_C.PPCEABI.bare.SZ.E.UC.a alloc.o
+           10] SubBlock_merge_prev (func,local) found in MSL_C.PPCEABI.bare.SZ.E.UC.a alloc.o
+           10] SubBlock_merge_next (func,local) found in MSL_C.PPCEABI.bare.SZ.E.UC.a alloc.o
+         8] link (func,local) found in MSL_C.PPCEABI.bare.SZ.E.UC.a alloc.o
+       6] allocate_from_fixed_pools (func,local) found in MSL_C.PPCEABI.bare.SZ.E.UC.a alloc.o
+        7] fix_pool_sizes (object,local) found in MSL_C.PPCEABI.bare.SZ.E.UC.a alloc.o
+        7] soft_allocate_from_var_pools (func,local) found in MSL_C.PPCEABI.bare.SZ.E.UC.a alloc.o
+         8] Block_subBlock (func,local) found in MSL_C.PPCEABI.bare.SZ.E.UC.a alloc.o
+          9] SubBlock_split (func,local) found in MSL_C.PPCEABI.bare.SZ.E.UC.a alloc.o
+          9] Block_unlink (func,local) found in MSL_C.PPCEABI.bare.SZ.E.UC.a alloc.o
+        7] allocate_from_var_pools (func,local) found in MSL_C.PPCEABI.bare.SZ.E.UC.a alloc.o
+         8] link_new_block (func,local) found in MSL_C.PPCEABI.bare.SZ.E.UC.a alloc.o
+          9] __sys_alloc (func,global) found in MSL_C.PPCEABI.bare.SZ.E.UC.a alloc.o
+        7] FixBlock_construct (func,local) found in MSL_C.PPCEABI.bare.SZ.E.UC.a alloc.o
+    3] @LOCAL@main__Fv@pkx (object,local) found in main.o 
+    3] @731 (object,local) found in main.o 
+    3] fail__FPCc (func,global) found in fail.o 
+     4] exit (func,weak) found in __ppc_eabi_init.o 
+      5] __fini_cpp (func,local) found in __ppc_eabi_init.o 
+       6] _dtors (notype,global) found in Linker Generated Symbol File 
+      5] _ExitProcess (func,weak) found in __ppc_eabi_init.o 
+    3] @LOCAL@main__Fv@skx@0 (object,local) found in main.o 
+    3] @732 (object,local) found in main.o 
+    3] @LOCAL@main__Fv@pky@1 (object,local) found in main.o 
+    3] @733 (object,local) found in main.o 
+    3] @LOCAL@main__Fv@sky@2 (object,local) found in main.o 
+    3] @734 (object,local) found in main.o 
+    3] @625 (object,local) found in main.o 
+    3] @627 (object,local) found in main.o 
+    3] @629 (object,local) found in main.o 
+    3] @631 (object,local) found in main.o 
+    3] @633 (object,local) found in main.o 
+    3] @635 (object,local) found in main.o 
+    3] @LOCAL@main__Fv@ecskx@3 (object,local) found in main.o 
+    3] @735 (object,local) found in main.o 
+    3] @LOCAL@main__Fv@ecpkx@4 (object,local) found in main.o 
+    3] @736 (object,local) found in main.o 
+    3] @LOCAL@main__Fv@ecsky@5 (object,local) found in main.o 
+    3] @737 (object,local) found in main.o 
+    3] @LOCAL@main__Fv@ecpky@6 (object,local) found in main.o 
+    3] @738 (object,local) found in main.o 
+    3] @LOCAL@main__Fv@ssxy@7 (object,local) found in main.o 
+    3] @LOCAL@main__Fv@ssyx@8 (object,local) found in main.o 
+    3] @LOCAL@main__Fv@ssyz@9 (object,local) found in main.o 
+    3] @LOCAL@main__Fv@sszy@10 (object,local) found in main.o 
+    3] randombytes__FPUcUx (func,global) found in randombytes.o 
+     4] outleft (object,local) found in randombytes.o 
+     4] in (object,local) found in randombytes.o 
+     4] surf__Fv (func,local) found in randombytes.o 
+      5] seed (object,local) found in randombytes.o 
+      5] out (object,local) found in randombytes.o 
+    3] @739 (object,local) found in main.o 
+    3] @740 (object,local) found in main.o 
+    3] @741 (object,local) found in main.o 
+    3] FUNC_KEY_EXCHANGE (object,local) found in main.o 
+    3] crypto_sign_ed25519__FPUcPUiPCUcUiPCUc (func,global) found in ed25519.o 
+     4] crypto_hash_sha512__FPUcPCUcUi (func,global) found in sha512.o 
+      5] avrnacl_sha512_iv (object,global) found in hmac.o 
+      5] crypto_hashblocks_sha512__FPUcPCUcUi (func,global) found in sha512.o 
+       6] myu64_load_bigendian__FP5myu64PCUc (func,local) found in sha512.o 
+       6] roundconstants (object,local) found in sha512.o 
+       6] myF__FP5myu64P5myu64P5myu64P5myu64P5myu64P5myu64P5myu64P5myu64PC5myu64PC5myu64 (func,local) found in sha512.o 
+        7] Ch__FP5myu64PC5myu64PC5myu64PC5myu64 (func,local) found in sha512.o 
+         8] myu64_and__FP5myu64PC5myu64PC5myu64 (func,local) found in sha512.o 
+         8] myu64_not__FP5myu64PC5myu64 (func,local) found in sha512.o 
+         8] myu64_xor__FP5myu64PC5myu64PC5myu64 (func,local) found in sha512.o 
+        7] Sigma1__FP5myu64PC5myu64 (func,local) found in sha512.o 
+         8] myu64_ror__FP5myu64Uc (func,local) found in sha512.o 
+        7] myu64_add__FP5myu64PC5myu64PC5myu64 (func,local) found in sha512.o 
+         8] avrnacl_bigint_add__FPUcPCUcPCUcUi (func,global) found in bigint.o 
+        7] Sigma0__FP5myu64PC5myu64 (func,local) found in sha512.o 
+        7] Maj__FP5myu64PC5myu64PC5myu64PC5myu64 (func,local) found in sha512.o 
+       6] expand__FP5myu64P5myu64P5myu64P5myu64P5myu64P5myu64P5myu64P5myu64P5myu64P5myu64P5myu64P5myu64P5myu64P5myu64P5myu64P5myu64 (func,local) found in sha512.o 
+        7] M__FP5myu64PC5myu64PC5myu64PC5myu64 (func,local) found in sha512.o 
+         8] sigma0__FP5myu64PC5myu64 (func,local) found in sha512.o 
+          9] myu64_shr__FP5myu64Uc (func,local) found in sha512.o 
+         8] sigma1__FP5myu64PC5myu64 (func,local) found in sha512.o 
+       6] myu64_store_bigendian__FPUcPC5myu64 (func,local) found in sha512.o 
+     4] crypto_sign_edwards25519sha512batch_sc25519_from64bytes__FP43crypto_sign_edwards25519sha512batch_sc25519PCUc (func,global) found in sc25519.o 
+      5] barrett_reduce__FP43crypto_sign_edwards25519sha512batch_sc25519PCUl (func,local) found in sc25519.o 
+       6] mu (object,local) found in sc25519.o 
+       6] m (object,local) found in sc25519.o 
+       6] reduce_add_sub__FP43crypto_sign_edwards25519sha512batch_sc25519 (func,local) found in sc25519.o 
+     4] crypto_sign_edwards25519sha512batch_ge25519_scalarmult_base__FP43crypto_sign_edwards25519sha512batch_ge25519PC43crypto_sign_edwards25519sha512batch_sc25519 (func,global) found in ge25519.o 
+      5] ge25519_base_x (object,local) found in ge25519.o 
+      5] avrnacl_fe25519_unpack__FP7fe25519PCUc (func,global) found in fe25519.o 
+      5] ge25519_base_y (object,local) found in ge25519.o 
+      5] ge25519_base_z (object,local) found in ge25519.o 
+      5] ge25519_base_t (object,local) found in ge25519.o 
+      5] crypto_sign_edwards25519sha512batch_ge25519_scalarmult__FP43crypto_sign_edwards25519sha512batch_ge25519PC43crypto_sign_edwards25519sha512batch_ge25519PC43crypto_sign_edwards25519sha512batch_sc25519 (func,global) found in ge25519.o 
+       6] ge25519_neutral_x (object,local) found in ge25519.o 
+       6] ge25519_neutral_y (object,local) found in ge25519.o 
+       6] ge25519_neutral_z (object,local) found in ge25519.o 
+       6] ge25519_neutral_t (object,local) found in ge25519.o 
+       6] crypto_sign_edwards25519sha512batch_sc25519_to32bytes__FPUcPC43crypto_sign_edwards25519sha512batch_sc25519 (func,global) found in sc25519.o 
+       6] dbl_p1p1__FP12ge25519_p1p1PC10ge25519_p2 (func,local) found in ge25519.o 
+        7] avrnacl_fe25519_square__FP7fe25519PC7fe25519 (func,global) found in fe25519.o 
+         8] avrnacl_fe25519_mul__FP7fe25519PC7fe25519PC7fe25519 (func,global) found in fe25519.o 
+          9] reduce_mul__FP7fe25519 (func,local) found in fe25519.o 
+        7] avrnacl_fe25519_add__FP7fe25519PC7fe25519PC7fe25519 (func,global) found in fe25519.o 
+         8] reduce_add_sub__FP7fe25519 (func,local) found in fe25519.o 
+        7] avrnacl_fe25519_neg__FP7fe25519PC7fe25519 (func,global) found in fe25519.o 
+         8] avrnacl_fe25519_setzero__FP7fe25519 (func,global) found in fe25519.o 
+         8] avrnacl_fe25519_sub__FP7fe25519PC7fe25519PC7fe25519 (func,global) found in fe25519.o 
+       6] p1p1_to_p3__FP43crypto_sign_edwards25519sha512batch_ge25519PC12ge25519_p1p1 (func,local) found in ge25519.o 
+        7] p1p1_to_p2__FP10ge25519_p2PC12ge25519_p1p1 (func,local) found in ge25519.o 
+       6] add_p1p1__FP12ge25519_p1p1PC43crypto_sign_edwards25519sha512batch_ge25519PC43crypto_sign_edwards25519sha512batch_ge25519 (func,local) found in ge25519.o 
+        7] ecd (object,local) found in ge25519.o 
+       6] cmov_p3__FP43crypto_sign_edwards25519sha512batch_ge25519PC43crypto_sign_edwards25519sha512batch_ge25519Uc (func,local) found in ge25519.o 
+        7] avrnacl_fe25519_cmov__FP7fe25519PC7fe25519Uc (func,global) found in fe25519.o 
+     4] crypto_sign_edwards25519sha512batch_ge25519_pack__FPUcPC43crypto_sign_edwards25519sha512batch_ge25519 (func,global) found in ge25519.o 
+      5] avrnacl_fe25519_invert__FP7fe25519PC7fe25519 (func,global) found in fe25519.o 
+      5] avrnacl_fe25519_pack__FPUcPC7fe25519 (func,global) found in fe25519.o 
+      5] avrnacl_fe25519_getparity__FPC7fe25519 (func,global) found in fe25519.o 
+       6] freeze__FP7fe25519 (func,local) found in fe25519.o 
+     4] crypto_sign_edwards25519sha512batch_sc25519_mul__FP43crypto_sign_edwards25519sha512batch_sc25519PC43crypto_sign_edwards25519sha512batch_sc25519PC43crypto_sign_edwards25519sha512batch_sc25519 (func,global) found in sc25519.o 
+     4] crypto_sign_edwards25519sha512batch_sc25519_from32bytes__FP43crypto_sign_edwards25519sha512batch_sc25519PCUc (func,global) found in sc25519.o 
+     4] crypto_sign_edwards25519sha512batch_sc25519_add__FP43crypto_sign_edwards25519sha512batch_sc25519PC43crypto_sign_edwards25519sha512batch_sc25519PC43crypto_sign_edwards25519sha512batch_sc25519 (func,global) found in sc25519.o 
+    3] @742 (object,local) found in main.o 
+    3] free (func,global) found in MSL_C.PPCEABI.bare.SZ.E.UC.a alloc.o
+     4] __pool_free (func,global) found in MSL_C.PPCEABI.bare.SZ.E.UC.a alloc.o
+      5] deallocate_from_fixed_pools (func,global) found in MSL_C.PPCEABI.bare.SZ.E.UC.a alloc.o
+       6] deallocate_from_var_pools (func,local) found in MSL_C.PPCEABI.bare.SZ.E.UC.a alloc.o
+    3] crypto_sign_ed25519_open__FPUcPUiPCUcUiPCUc (func,global) found in ed25519.o 
+     4] crypto_sign_edwards25519sha512batch_ge25519_unpack_vartime__FP43crypto_sign_edwards25519sha512batch_ge25519PCUc (func,global) found in ge25519.o 
+      5] avrnacl_fe25519_setone__FP7fe25519 (func,global) found in fe25519.o 
+      5] fe25519_sqrt_vartime__FP7fe25519PC7fe25519Uc (func,global) found in fe25519.o 
+       6] issquare__FPC7fe25519 (func,local) found in fe25519.o 
+        7] @125 (object,local) found in fe25519.o 
+        7] fe25519_pow__FP7fe25519PC7fe25519PCUc (func,global) found in fe25519.o 
+        7] isone__FPC7fe25519 (func,local) found in fe25519.o 
+        7] iszero__FPC7fe25519 (func,local) found in fe25519.o 
+       6] @399 (object,local) found in fe25519.o 
+       6] @401 (object,local) found in fe25519.o 
+       6] @403 (object,local) found in fe25519.o 
+     4] crypto_sign_edwards25519sha512batch_ge25519_add__FP43crypto_sign_edwards25519sha512batch_ge25519PC43crypto_sign_edwards25519sha512batch_ge25519PC43crypto_sign_edwards25519sha512batch_ge25519 (func,global) found in ge25519.o 
+    3] @743 (object,local) found in main.o 
+    3] @744 (object,local) found in main.o 
+    3] FUNC_KEY_EXCHANGE_CONT (object,local) found in main.o 
+    3] @745 (object,local) found in main.o 
+    3] askUpdate__FPUcUiPUcPUcPUc (func,global) found in main.o 
+     4] FUNC_ASK_UPDATE (object,local) found in main.o 
+     4] @834 (object,local) found in main.o 
+     4] @835 (object,local) found in main.o 
+     4] pack__FPUcUiPUcPUcPUc (func,global) found in main.o 
+      5] crypto_secretbox_xsalsa20poly1305__FPUcPCUcUiPCUcPCUc (func,global) found in xsalsa20poly1305.o 
+       6] crypto_stream_xsalsa20_xor__FPUcPCUcUiPCUcPCUc (func,global) found in xsalsa20.o 
+        7] sigma (object,local) found in xsalsa20.o 
+        7] crypto_core_hsalsa20__FPUcPCUcPCUcPCUc (func,global) found in hsalsa20.o 
+         8] core__FPUcPCUcPCUcPCUc (func,local) found in hsalsa20.o 
+          9] ld32__FPCUc (func,local) found in hsalsa20.o 
+          9] L32__FUli (func,local) found in hsalsa20.o 
+          9] st32__FPUcUl (func,local) found in hsalsa20.o 
+       6] crypto_onetimeauth_poly1305__FPUcPCUcUiPCUc (func,global) found in poly1305.o 
+        7] add__FPUcPCUc (func,local) found in poly1305.o 
+        7] mulmod__FPUcPCUc (func,local) found in poly1305.o 
+         8] avrnacl_bigint_mul__FPUcPCUcPCUcUi (func,global) found in bigint.o 
+        7] freeze__FPUc (func,local) found in poly1305.o 
+         8] minusp (object,local) found in poly1305.o 
+     4] @836 (object,local) found in main.o 
+     4] unpack__FPUcUiPUcPUcPUc (func,global) found in main.o 
+      5] crypto_secretbox_xsalsa20poly1305_open__FPUcPCUcUiPCUcPCUc (func,global) found in xsalsa20poly1305.o 
+       6] crypto_stream_xsalsa20__FPUcUiPCUcPCUc (func,global) found in xsalsa20.o 
+       6] crypto_onetimeauth_poly1305_verify__FPCUcPCUcUiPCUc (func,global) found in poly1305.o 
+        7] crypto_verify_16__FPCUcPCUc (func,global) found in verify.o 
+         8] vn__FPCUcPCUcc (func,local) found in verify.o 
+    3] @746 (object,local) found in main.o 
+    3] askVersion__FPUcUiPUcPUcPUc (func,global) found in main.o 
+     4] FUNC_ASK_VERSION (object,local) found in main.o 
+     4] @873 (object,local) found in main.o 
+     4] @874 (object,local) found in main.o 
+    3] @747 (object,local) found in main.o 
+    3] respondVersion__FPUcUiPUcPUcPUc (func,global) found in main.o 
+     4] @890 (object,local) found in main.o 
+     4] FUNC_RESPOND_VERSION (object,local) found in main.o 
+    3] @748 (object,local) found in main.o 
+    3] respondUpdate__FPUcUiPUcPUcPUc (func,global) found in main.o 
+     4] @935 (object,local) found in main.o 
+     4] FUNC_RESPOND_UPDATE (object,local) found in main.o 
+    3] @749 (object,local) found in main.o 
+    3] askFirmware__FPUcUiPUcPUcPUc (func,global) found in main.o 
+     4] @980 (object,local) found in main.o 
+    3] @750 (object,local) found in main.o 
+    3] sendFirmware__FPUcUiPUcPUcPUc (func,global) found in main.o 
+     4] FUNC_SEND_FIRMWARE (object,local) found in main.o 
+     4] ECU_UPDATE_ONE (object,local) found in main.o 
+    3] @751 (object,local) found in main.o 
+    3] confirmFirmware__FPUcUiPUcPUcPUc (func,global) found in main.o 
+     4] @1067 (object,local) found in main.o 
+     4] FUNC_CONFIRM_FIRMWARE (object,local) found in main.o 
+    3] @752 (object,local) found in main.o 
+  1] INTC_INTCInterruptHandler (func,global) found in IntcInterrupts.o 
+  1] EXCEP_DefaultExceptionHandler (func,global) found in Exceptions.o 
+  1] @575 (object,local) found in main.o 
+   2] @574 (object,local) found in main.o 
+  1] @754 (object,local) found in main.o 
+   2] @753 (object,local) found in main.o 
+  1] @781 (object,local) found in main.o 
+   2] @780 (object,local) found in main.o 
+  1] @803 (object,local) found in main.o 
+   2] @802 (object,local) found in main.o 
+  1] @842 (object,local) found in main.o 
+   2] @841 (object,local) found in main.o 
+  1] @880 (object,local) found in main.o 
+   2] @879 (object,local) found in main.o 
+  1] @925 (object,local) found in main.o 
+   2] @924 (object,local) found in main.o 
+  1] @970 (object,local) found in main.o 
+   2] @969 (object,local) found in main.o 
+  1] @1015 (object,local) found in main.o 
+   2] @1014 (object,local) found in main.o 
+  1] @1057 (object,local) found in main.o 
+   2] @1056 (object,local) found in main.o 
+  1] @1102 (object,local) found in main.o 
+   2] @1101 (object,local) found in main.o 
+  1] @602 (object,local) found in main.o 
+   2] @601 (object,local) found in main.o 
+  1] @6 (object,local) found in Exceptions.o 
+   2] @5 (object,local) found in Exceptions.o 
+  1] @491 (object,local) found in IntcInterrupts.o 
+   2] @490 (object,local) found in IntcInterrupts.o 
+  1] @36 (object,local) found in bigint.o 
+   2] @35 (object,local) found in bigint.o 
+  1] @81 (object,local) found in bigint.o 
+   2] @80 (object,local) found in bigint.o 
+  1] @52 (object,local) found in fe25519.o 
+   2] @51 (object,local) found in fe25519.o 
+  1] @72 (object,local) found in fe25519.o 
+   2] @71 (object,local) found in fe25519.o 
+  1] @91 (object,local) found in fe25519.o 
+   2] @90 (object,local) found in fe25519.o 
+  1] @105 (object,local) found in fe25519.o 
+   2] @104 (object,local) found in fe25519.o 
+  1] @119 (object,local) found in fe25519.o 
+   2] @118 (object,local) found in fe25519.o 
+  1] @132 (object,local) found in fe25519.o 
+   2] @131 (object,local) found in fe25519.o 
+  1] @146 (object,local) found in fe25519.o 
+   2] @145 (object,local) found in fe25519.o 
+  1] @171 (object,local) found in fe25519.o 
+   2] @170 (object,local) found in fe25519.o 
+  1] @187 (object,local) found in fe25519.o 
+   2] @186 (object,local) found in fe25519.o 
+  1] @202 (object,local) found in fe25519.o 
+   2] @201 (object,local) found in fe25519.o 
+  1] @215 (object,local) found in fe25519.o 
+   2] @214 (object,local) found in fe25519.o 
+  1] @228 (object,local) found in fe25519.o 
+   2] @227 (object,local) found in fe25519.o 
+  1] @245 (object,local) found in fe25519.o 
+   2] @244 (object,local) found in fe25519.o 
+  1] @263 (object,local) found in fe25519.o 
+   2] @262 (object,local) found in fe25519.o 
+  1] @287 (object,local) found in fe25519.o 
+   2] @286 (object,local) found in fe25519.o 
+  1] @322 (object,local) found in fe25519.o 
+   2] @321 (object,local) found in fe25519.o 
+  1] @331 (object,local) found in fe25519.o 
+   2] @330 (object,local) found in fe25519.o 
+  1] @389 (object,local) found in fe25519.o 
+   2] @388 (object,local) found in fe25519.o 
+  1] @427 (object,local) found in fe25519.o 
+   2] @426 (object,local) found in fe25519.o 
+  1] @477 (object,local) found in fe25519.o 
+   2] @476 (object,local) found in fe25519.o 
+  1] @60 (object,local) found in randombytes.o 
+   2] @59 (object,local) found in randombytes.o 
+  1] @82 (object,local) found in randombytes.o 
+   2] @81 (object,local) found in randombytes.o 
+  1] @16 (object,local) found in verify.o 
+   2] @15 (object,local) found in verify.o 
+  1] @24 (object,local) found in verify.o 
+   2] @23 (object,local) found in verify.o 
+  1] @13 (object,local) found in xsalsa20.o 
+   2] @12 (object,local) found in xsalsa20.o 
+  1] @25 (object,local) found in xsalsa20.o 
+   2] @24 (object,local) found in xsalsa20.o 
+  1] @49 (object,local) found in sc25519.o 
+   2] @48 (object,local) found in sc25519.o 
+  1] @109 (object,local) found in sc25519.o 
+   2] @108 (object,local) found in sc25519.o 
+  1] @126 (object,local) found in sc25519.o 
+   2] @125 (object,local) found in sc25519.o 
+  1] @143 (object,local) found in sc25519.o 
+   2] @142 (object,local) found in sc25519.o 
+  1] @157 (object,local) found in sc25519.o 
+   2] @156 (object,local) found in sc25519.o 
+  1] @181 (object,local) found in sc25519.o 
+   2] @180 (object,local) found in sc25519.o 
+  1] @216 (object,local) found in sc25519.o 
+   2] @215 (object,local) found in sc25519.o 
+  1] @161 (object,local) found in ed25519.o 
+   2] @160 (object,local) found in ed25519.o 
+  1] @193 (object,local) found in ed25519.o 
+   2] @192 (object,local) found in ed25519.o 
+  1] @86 (object,local) found in ge25519.o 
+   2] @85 (object,local) found in ge25519.o 
+  1] @96 (object,local) found in ge25519.o 
+   2] @95 (object,local) found in ge25519.o 
+  1] @107 (object,local) found in ge25519.o 
+   2] @106 (object,local) found in ge25519.o 
+  1] @121 (object,local) found in ge25519.o 
+   2] @120 (object,local) found in ge25519.o 
+  1] @139 (object,local) found in ge25519.o 
+   2] @138 (object,local) found in ge25519.o 
+  1] @153 (object,local) found in ge25519.o 
+   2] @152 (object,local) found in ge25519.o 
+  1] @166 (object,local) found in ge25519.o 
+   2] @165 (object,local) found in ge25519.o 
+  1] @176 (object,local) found in ge25519.o 
+   2] @175 (object,local) found in ge25519.o 
+  1] @257 (object,local) found in ge25519.o 
+   2] @256 (object,local) found in ge25519.o 
+  1] @266 (object,local) found in ge25519.o 
+   2] @265 (object,local) found in ge25519.o 
+  1] @20 (object,local) found in xsalsa20poly1305.o 
+   2] @19 (object,local) found in xsalsa20poly1305.o 
+  1] @46 (object,local) found in xsalsa20poly1305.o 
+   2] @45 (object,local) found in xsalsa20poly1305.o 
+  1] @44 (object,local) found in poly1305.o 
+   2] @43 (object,local) found in poly1305.o 
+  1] @75 (object,local) found in poly1305.o 
+   2] @74 (object,local) found in poly1305.o 
+  1] @114 (object,local) found in poly1305.o 
+   2] @113 (object,local) found in poly1305.o 
+  1] @162 (object,local) found in poly1305.o 
+   2] @161 (object,local) found in poly1305.o 
+  1] @173 (object,local) found in poly1305.o 
+   2] @172 (object,local) found in poly1305.o 
+  1] @14 (object,local) found in hsalsa20.o 
+   2] @13 (object,local) found in hsalsa20.o 
+  1] @28 (object,local) found in hsalsa20.o 
+   2] @27 (object,local) found in hsalsa20.o 
+  1] @99 (object,local) found in hsalsa20.o 
+   2] @98 (object,local) found in hsalsa20.o 
+  1] @109 (object,local) found in hsalsa20.o 
+   2] @108 (object,local) found in hsalsa20.o 
+  1] @31 (object,local) found in fail.o 
+   2] @30 (object,local) found in fail.o 
+  1] @40 (object,local) found in sha512.o 
+   2] @39 (object,local) found in sha512.o 
+  1] @41 (object,local) found in sha512.o 
+   2] @40 (object,local) found in sha512.o 
+  1] @56 (object,local) found in sha512.o 
+   2] @55 (object,local) found in sha512.o 
+  1] @71 (object,local) found in sha512.o 
+   2] @70 (object,local) found in sha512.o 
+  1] @85 (object,local) found in sha512.o 
+   2] @84 (object,local) found in sha512.o 
+  1] @102 (object,local) found in sha512.o 
+   2] @101 (object,local) found in sha512.o 
+  1] @116 (object,local) found in sha512.o 
+   2] @115 (object,local) found in sha512.o 
+  1] @129 (object,local) found in sha512.o 
+   2] @128 (object,local) found in sha512.o 
+  1] @145 (object,local) found in sha512.o 
+   2] @144 (object,local) found in sha512.o 
+  1] @160 (object,local) found in sha512.o 
+   2] @159 (object,local) found in sha512.o 
+  1] @173 (object,local) found in sha512.o 
+   2] @172 (object,local) found in sha512.o 
+  1] @187 (object,local) found in sha512.o 
+   2] @186 (object,local) found in sha512.o 
+  1] @201 (object,local) found in sha512.o 
+   2] @200 (object,local) found in sha512.o 
+  1] @214 (object,local) found in sha512.o 
+   2] @213 (object,local) found in sha512.o 
+  1] @243 (object,local) found in sha512.o 
+   2] @242 (object,local) found in sha512.o 
+  1] @282 (object,local) found in sha512.o 
+   2] @281 (object,local) found in sha512.o 
+  1] @339 (object,local) found in sha512.o 
+   2] @338 (object,local) found in sha512.o 
+  1] __init_cpp_exceptions_reference (object,global) found in Runtime.PPCEABI.E.UC.a __init_cpp_exceptions.o
+   2] __init_cpp_exceptions (func,global) found in Runtime.PPCEABI.E.UC.a __init_cpp_exceptions.o
+    3] fragmentID (object,local) found in Runtime.PPCEABI.E.UC.a __init_cpp_exceptions.o
+    3] __exception_info_constants (func,weak) found in Runtime.PPCEABI.E.UC.a __init_cpp_exceptions.o
+     4] _eti_init_info (object,global) found in Linker Generated Symbol File 
+    3] __register_fragment (func,global) found in Runtime.PPCEABI.E.UC.a ExceptionPPC.o
+     4] fragmentinfo (object,local) found in Runtime.PPCEABI.E.UC.a ExceptionPPC.o
+  1] __fini_cpp_exceptions_reference (object,global) found in Runtime.PPCEABI.E.UC.a __init_cpp_exceptions.o
+   2] __fini_cpp_exceptions (func,global) found in Runtime.PPCEABI.E.UC.a __init_cpp_exceptions.o
+    3] __unregister_fragment (func,global) found in Runtime.PPCEABI.E.UC.a ExceptionPPC.o
+  1] _ctors$99 (object,global) found in Linker Generated Symbol File 
+  1] _dtors$99 (object,global) found in Linker Generated Symbol File 
+    3] .text (section,local) found in bigint.o 
+    3] .text.198 (notype,local) found in bigint.o 
+    3] .text (section,local) found in fe25519.o 
+    3] .text.525 (notype,local) found in fe25519.o 
+    3] .text (section,local) found in randombytes.o 
+    3] .text.92 (notype,local) found in randombytes.o 
+    3] .text (section,local) found in verify.o 
+    3] .text.43 (notype,local) found in verify.o 
+    3] .text (section,local) found in xsalsa20.o 
+    3] .text.40 (notype,local) found in xsalsa20.o 
+    3] .text (section,local) found in sc25519.o 
+    3] .text.258 (notype,local) found in sc25519.o 
+    3] .text (section,local) found in ed25519.o 
+    3] .text.221 (notype,local) found in ed25519.o 
+    3] .text (section,local) found in ge25519.o 
+    3] .text.309 (notype,local) found in ge25519.o 
+    3] .text (section,local) found in xsalsa20poly1305.o 
+    3] .text.60 (notype,local) found in xsalsa20poly1305.o 
+    3] .text (section,local) found in poly1305.o 
+    3] .text.196 (notype,local) found in poly1305.o 
+    3] .text (section,local) found in hsalsa20.o 
+    3] .text.128 (notype,local) found in hsalsa20.o 
+    3] .text (section,local) found in fail.o 
+    3] .text.36 (notype,local) found in fail.o 
+    3] .text (section,local) found in sha512.o 
+    3] .text.50 (notype,local) found in sha512.o 
+    3] .text (section,local) found in sha512.o 
+    3] .text.413 (notype,local) found in sha512.o 
+    3] .text (section,local) found in hmac.o 
+    3] .text.106 (notype,local) found in hmac.o 
+    3] .init (section,local) found in Runtime.PPCEABI.E.UC.a __start.o
+    3] .init.104 (notype,local) found in Runtime.PPCEABI.E.UC.a __start.o
+    3] .text (section,local) found in Runtime.PPCEABI.E.UC.a ExceptionPPC.o
+    3] .text.1420 (notype,local) found in Runtime.PPCEABI.E.UC.a ExceptionPPC.o
+    3] .text (section,local) found in Runtime.PPCEABI.E.UC.a runtime.o
+    3] .text.211 (notype,local) found in Runtime.PPCEABI.E.UC.a runtime.o
+    3] .text (section,local) found in MSL_C.PPCEABI.bare.SZ.E.UC.a alloc.o
+    3] .text.907 (notype,local) found in MSL_C.PPCEABI.bare.SZ.E.UC.a alloc.o
+    3] .text (section,local) found in precompute.o 
+    3] .text.172 (notype,local) found in precompute.o 
